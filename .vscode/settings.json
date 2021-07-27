@@ -1,0 +1,17 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "vasi",
+            "database": "${workspaceFolder:vasi-proj}/database.db"
+        },
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "vasi-proj",
+            "database": "${workspaceFolder:vasi-proj}/database/database.db"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}
